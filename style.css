@@ -120,7 +120,13 @@ input[type="text"], input[type="email"], textarea {
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
 
-
+footer {
+    text-align: center;
+    padding: 10px 0;
+    color: var(--dark-blue);
+    font-weight: bold;
+    margin-top: 40px;
+}
 @media (max-width: 768px){
     header {
         flex-direction: column; /* Stacks logo and nav vertically on small screens */
