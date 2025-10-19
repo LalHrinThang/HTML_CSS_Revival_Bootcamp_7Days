@@ -17,6 +17,17 @@ header,main,footer {
     margin: 20px auto; /* Centers the content */
 }
 
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+nav ul li {
+    margin-left: 20px;
+}
+
 /* Styling the Sections */
 section {
     background-color: #fff;
@@ -55,3 +66,4 @@ input[type="text"], input[type="email"], textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+
