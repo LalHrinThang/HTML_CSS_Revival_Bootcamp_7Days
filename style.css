@@ -77,3 +77,13 @@ input[type="text"], input[type="email"], textarea {
     border-radius: 4px;
 }
 
+#about {
+    display: flex;
+    align-items: center; /* Aligns image and text vertically */
+    gap: 20px; /* Adds space between flex items */
+}
+
+#about img {
+    border-radius: 50%; /* Makes the image circular */
+    max-width: 150px;
+}
