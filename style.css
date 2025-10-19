@@ -87,3 +87,16 @@ input[type="text"], input[type="email"], textarea {
     border-radius: 50%; /* Makes the image circular */
     max-width: 150px;
 }
+
+#projects {
+    /* This creates a responsive grid. It will fit as many 300px columns as it can. */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px; /* Space between grid items */
+}
+
+.project-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+}
