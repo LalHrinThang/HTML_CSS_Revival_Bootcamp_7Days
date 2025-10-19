@@ -10,3 +10,11 @@ h1, h2, h3 {
     color: #444;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+/* center the content and set max width */
+header,main,footer {
+    max-width: 1000px;
+    width: 90%;
+    margin: 20px auto; /* Centers the content */
+}
+
+
