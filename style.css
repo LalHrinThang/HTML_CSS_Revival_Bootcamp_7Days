@@ -25,3 +25,33 @@ section {
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     border-radius: 5px;
 }
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.cta-button, button[type="submit"] {
+    display: inline-block;
+    background-color: #28a745; /* green button or 007BFF for blue button */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.cta-button:hover, button[type="submit"]:hover {
+    background-color: #218838; /* darker green or 0056b3 for blue */
+    cursor: pointer;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 98%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
