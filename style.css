@@ -17,7 +17,17 @@ header,main,footer {
     margin: 20px auto; /* Centers the content */
 }
 
-
+header {
+    display: flex;
+    justify-content: space-between;/* Pushes logo and nav to opposite ends beacuse of flexbox + navigation are also inside header */ 
+    align-items: center; /* Vertically centers items */
+    padding: 10px 0;
+}
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+}
 nav ul {
     list-style-type: none;
     padding: 0;
